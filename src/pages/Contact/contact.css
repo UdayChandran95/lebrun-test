@@ -1,0 +1,149 @@
+.contactName{
+    height: 100vh;
+    background: url(../../images/close-up-photo-painting-wood-brown-color.jpg);
+    background-size: cover;
+   
+}
+
+.contactName > h4{
+    padding-top: 15%;
+  font-size: 1.6rem;
+  font-family: 'Roboto';
+  color: #F78F1E;
+  display: grid;
+  place-content: center;
+  z-index: 2;
+  
+  
+}
+
+.contactName > h2{
+    padding: 15px 0;
+    font-size: 2.8rem;
+   font-family: 'Roboto';
+   color: #f7f7f7;
+   display: grid;
+  place-content: center;
+   
+}
+
+.contactName > p{
+    display: grid;
+    place-content: center;
+   color: #f7f7f7;
+   font-size: 1.3rem;
+}
+
+.contactFormBox{
+    display: flex;
+}
+
+.formImg{
+    flex: 6;
+    background: url(../../images/painting.jpg);
+    background-size: cover;
+}
+
+.storyDesc3 > h1{
+    font-family: 'Roboto';
+    font-size: 2.4rem;
+    padding-top: 15%;
+    margin-left: 15%;
+    color: #f7f5f5;
+}
+
+.orgLine3{
+    border: 3px solid #f08b1e;
+    border-color: #f08b1e;
+    width: 20px;
+    margin-left: 15.2%;
+    margin-top: -1%;
+   
+}
+
+form{
+    text-align: center;
+    width: 70%;
+    margin: 5% 0 0 15%;
+}
+
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box .input-field{
+    width: 48%;
+}
+
+.field .item{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #c7c7c7;
+    margin: 12px 0;
+    font-size: 1.1rem;
+}
+
+form .textarea-field .item{
+    resize: none;
+}
+
+form button{
+    padding: 12px 30px;
+    background: #f08b1e;
+    font-size: 1.2rem;
+    border: none;
+    font-weight: bold;
+    color: #f7f5f5;
+    width: 100%;
+}
+
+
+.formImg > p{
+    font-size: 1.2rem;
+    width: 70%;
+    padding-top: 5%;
+    line-height: 40px;
+    margin-left: 15%;
+    color: #f7f5f5;
+}
+
+.para-2{
+    font-size: 1.2rem;
+    width: 70%;
+    line-height: 40px;
+    margin-left: 15%;
+    color: #f0eeee;
+    padding-bottom: 12%;
+}
+
+.contactForm{
+    flex: 6;
+}
+
+.woodFloorImg{
+    margin-top: 5%;
+    width: 100%;
+}
+
+@media screen and (max-width : 599px) {
+    .contactName{
+        padding: 100px 30px 10px 30px;
+        background: url(../../images/close-up-photo.jpg);
+        background-size: cover;
+       
+    }
+
+    .contactName > p{
+        padding: 10px;
+    }
+
+    .contactFormBox{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-field{
+        width: 50%;
+    }
+}

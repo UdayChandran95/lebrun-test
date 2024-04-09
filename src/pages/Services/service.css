@@ -1,0 +1,124 @@
+.topBg2{
+    padding: 35vh 25vh 30vh 25vh;
+    background: url('../../images/man-is-applying-paint.jpg');
+    background-size: cover;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 1.8rem;
+    color: #faf8f8e5;
+}
+
+.topBg2 span{
+    color: #f08b1e;
+}
+
+
+.card-container{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.card{
+    margin: 48px;
+    overflow: hidden;
+    height: 350px;
+    align-items: center;
+
+}
+
+
+.img1{
+    height: 390px;
+    width: 420px;
+    filter: brightness(80%);
+}
+
+
+
+.imgLogo3{
+    width: 10%;
+    margin: 4rem 10rem 0 42rem;
+    
+}
+
+.banner2 > p{
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    color: #f08b1e;
+}
+
+.offerHeading{
+ font-size: 2rem;
+ font-family: 'Roboto';
+ text-align: center;
+ padding-top: 0vh;
+}
+
+.intro{
+    height: 70px;
+    width: 400px;
+    padding: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 280px;
+    color: #fff;
+    background: rgb(27, 27, 27, 0.5);
+    transition: .5s;
+}
+
+.intro > h1{
+    margin: 15px;
+    font-size: 1.8rem;
+}
+
+.intro > p{
+    margin: 1rem;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover  .intro{
+    height: 350px;
+    top: 150px;
+    
+}
+
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+
+@media screen and (max-width : 599px) {
+    .topBg2{
+        padding: 150px 25px 50px 25px;
+        background: url('../../images/man-is-applying-paint2.jpg');
+        background-size: cover;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 1.2rem;
+        color: #faf8f8e5;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .intro{
+        width: 100%;
+    }
+
+    .intro > h1{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .card:hover  .intro{
+        height: 100%;
+        top: 150px;
+        
+    }
+}
