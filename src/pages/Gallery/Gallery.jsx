@@ -1,5 +1,4 @@
 import React from 'react'
-import GalleryBg from '../../images/carpenter-studio-using-electric-saw.jpg'
 import '../Gallery/gallery.css'
 import logo from "../../images/le-brun-high-resolution-logo-black.png"
 import statue1 from "../../images/statue1.jpg"

@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Services/service.css'
-import bgImg2 from "../../images/kid-hand-varnishing.jpg"
 import logo from "../../images/le-brun-high-resolution-logo-black.png"
 import img1 from "../../images/oil-polish.jpg"
 import img2 from "../../images/timber-polish-2.jpg"

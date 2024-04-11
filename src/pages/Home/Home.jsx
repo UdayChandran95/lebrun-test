@@ -4,7 +4,7 @@ import Bg2 from '../../images/old-fence-bg2.jpg'
 import './home.css'
 import spray from '../../images/worker-spraying.jpg'
 import worker from '../../images/male-wood-worker.jpg'
-import sanding from '../../images/wood-sanding.jpg'
+
 
 export default function Home() {
   return (
