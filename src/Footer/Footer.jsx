@@ -3,7 +3,7 @@ import '../Footer/footer.css'
 import logo from "../images/le-brun-high-resolution-logo-black.png"
 import paintBgImg from "../images/paintbgimg.png"
 
-export default function () {
+export default function Footer() {
   return (
     <div>
         <section>
